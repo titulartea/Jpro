@@ -1,0 +1,153 @@
+/*모바일*/
+main {
+  background-color: white;
+  position: relative;
+  padding: 0 20px 0 20px;
+  margin: 0 0 0 0;
+}
+/* 윗부분 */
+.imageContainer {
+  display: inline-block;
+  height: 100%;
+  margin: 0 -30px 10px -30px;
+}
+.mainPic {
+  background-color: #ffffff;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.location {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #f1f1f1;
+  border-bottom-width: 3px;
+  border-bottom: solid 1px #d9d9d9;
+  color: #5171a8;
+  font-size: 12px;
+  padding-left: 20px;
+  font-weight: 900;
+  margin: 0 -30px 0 -30px;
+}
+.dash {
+  color: rgb(126, 126, 126);
+}
+.way {
+  margin: 0 4px 0 4px;
+}
+.lang {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0 20px -100px;
+  color: #4f4f4f;
+}
+.langSelect {
+  height: 30px;
+  width: 100px;
+
+  border-radius: 10px;
+  border: 2px solid #858585;
+  color: rgb(0, 0, 0, 100%);
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.언어 {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.pic {
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.source {
+  color: rgb(85, 85, 85);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+.titleContainer {
+  display: inline-block;
+  height: 100px;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0px 0 50px 0px;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+.awake {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4f4f4f;
+  margin: 30px 0 0 0px;
+}
+.palyContainer {
+  margin-top: 20px;
+  margin-top: px;
+  display: block;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-top-style: solid;
+  border-top-color: #858585;
+  border-width: 3px;
+  padding-bottom: 30px;
+}
+.playNameAndTIme {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #4f4f4f;
+  padding: 10px 5px 0px 10px;
+}
+.Name {
+  width: 650px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Name {
+  display: inline-block;
+}
+.Time {
+  display: inline-block;
+}
+.play {
+  margin-top: 20px;
+
+  justify-content: space-between;
+  display: flex;
+}
+.pl {
+  margin-left: 10px;
+  width: 200px;
+  height: 25px;
+}
+.se {
+  width: 25px;
+}
+.text {
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+  text-wrap: balance;
+
+  border-bottom: 2px solid #4f4f4f;
+}
+
+.text1 {
+  text-wrap: stable;
+}
+
+li {
+  list-style-position: outside;
+}
