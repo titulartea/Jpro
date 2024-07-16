@@ -12,3 +12,6 @@ li {
   margin-bottom: 10px;
   text-wrap: pretty;
 }
+section {
+  padding: 0 40px 0 40px;
+}

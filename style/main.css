@@ -5,9 +5,6 @@ main {
 
   margin: 0 0 0 0;
 }
-section {
-  padding: 0 20px 0 20px;
-}
 /* 윗부분 */
 .imageContainer {
   display: inline-block;
@@ -30,7 +27,7 @@ section {
   border-bottom-width: 3px;
   border-bottom: solid 1px #d9d9d9;
   color: #5171a8;
-  font-size: 150%;
+  font-size: 100%;
   padding-left: 20px;
   font-weight: 900;
   margin: 0 -30px 0 -30px;
@@ -57,13 +54,13 @@ section {
   border: 2px solid #858585;
   color: rgb(0, 0, 0, 100%);
   padding-left: 10px;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: 600;
 }
 
 .언어 {
   margin-right: 10px;
-  font-size: 150%;
+  font-size: 100%;
 }
 .pic {
   width: 100%;
@@ -71,14 +68,13 @@ section {
 }
 .source {
   color: rgb(85, 85, 85);
-  font-size: 150%;
+  font-size: 100%;
   font-weight: 400;
   margin: 0;
 }
 .titleContainer {
   display: inline-block;
   height: 100px;
-  font-size: 150%;
   font-weight: 900;
   margin: 0px 0 50px 0px;
 }
@@ -91,7 +87,7 @@ section {
 }
 .awake {
   display: block;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: 600;
   color: #4f4f4f;
   margin: 30px 0 0 0px;
@@ -101,7 +97,7 @@ section {
   margin-top: px;
   display: block;
   flex-direction: row;
-  height: 50px;
+  height: 10%;
   width: 100%;
   background-color: #f1f1f1;
   border-top-style: solid;
@@ -112,7 +108,7 @@ section {
 .playNameAndTIme {
   display: flex;
   justify-content: space-between;
-  font-size: 150%;
+  font-size: 100%;
   color: #4f4f4f;
   padding: 10px 5px 0px 10px;
 }
@@ -143,7 +139,7 @@ section {
   width: 25px;
 }
 .text {
-  font-size: 150%;
+  font-size: 100%;
 
   font-weight: 400;
   text-wrap: balance;
@@ -170,7 +166,7 @@ li {
 .copy {
   color: #858585;
   margin-left: 5px;
-  font-size: 150%;
+  font-size: 40%;
 }
 .쩌리 {
   padding: 10px 0 10px 0;
