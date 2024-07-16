@@ -93,11 +93,13 @@ main {
   margin: 30px 0 0 0px;
 }
 .palyContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   margin-top: 20px;
   margin-top: px;
   display: block;
   flex-direction: row;
-  height: 10%;
+  height: 50px;
   width: 100%;
   background-color: #f1f1f1;
   border-top-style: solid;
@@ -110,7 +112,8 @@ main {
   justify-content: space-between;
   font-size: 100%;
   color: #4f4f4f;
-  padding: 10px 5px 0px 10px;
+  margin: 0;
+  padding: 0 5px 0px 10px;
 }
 .Name {
   width: 650px;
@@ -125,8 +128,6 @@ main {
   display: inline-block;
 }
 .play {
-  margin-top: 20px;
-
   justify-content: space-between;
   display: flex;
 }
@@ -167,6 +168,7 @@ li {
   color: #858585;
   margin-left: 5px;
   font-size: 40%;
+  line-height: 20%;
 }
 .쩌리 {
   padding: 10px 0 10px 0;
