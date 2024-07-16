@@ -143,13 +143,9 @@ main {
   font-size: 100%;
 
   font-weight: 400;
-  text-wrap: balance;
+  text-wrap: pretty;
 
   border-bottom: 2px solid #4f4f4f;
-}
-
-.text1 {
-  text-wrap: stable;
 }
 
 li {
@@ -160,6 +156,7 @@ li {
 }
 .reason {
   padding-left: 10px;
+  text-wrap: balance;
 }
 .scrip {
   color: #5171a8;
@@ -177,7 +174,9 @@ li {
   color: white;
   font-size: 150%;
 }
-
+.blah {
+  margin-left: -20px;
+}
 @media (min-width: 900px) {
   .header {
     display: none;
