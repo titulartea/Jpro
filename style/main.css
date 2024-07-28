@@ -1,8 +1,9 @@
 /*모바일*/
+
 main {
   background-color: white;
   position: relative;
-
+  max-width: 800px;
   margin: 0 0 0 0;
 }
 /* 윗부분 */
@@ -68,7 +69,7 @@ main {
 }
 .source {
   color: rgb(85, 85, 85);
-  font-size: 100%;
+  font-size: 50%;
   font-weight: 400;
   margin: 0;
 }
@@ -176,20 +177,4 @@ li {
 }
 .blah {
   margin-left: -20px;
-}
-@media (min-width: 900px) {
-  .header {
-    display: none;
-  }
-  body {
-    padding: 0;
-  }
-}
-@media (max-width: 899px) {
-  .header2 {
-    display: none;
-  }
-  .search {
-    display: none;
-  }
 }
